@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-c9db6b34.css">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/index-8b33cc86.css">
   </head>
   <body>
     <section class="">
@@ -28,50 +28,390 @@
 </section>
 
     <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+  <div class="header-container container">
+    <nav class="header-nav">
+      <a class="header-logo-link" href="./index.html"
+        ><svg width="159" height="39">
+          <use href="/vanilla-app-template/assets/sprite-8ee3646a.svg#icon-main-logo"></use>
+        </svg>
+      </a>
+      <ul class="header-nav-list">
+        <li class="nav-item">
+          <a href="./page-2.html" class="nav-link">СЕРТИФІКАЦІЯ</a>
+        </li>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+        <li class="nav-item">
+          <a href="./page-2.html" class="nav-link">ЛАБОРАТОРІЯ</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="./page-3.html" class="nav-link">КОНТАКТИ</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="./page-3.html" class="nav-link">F.A.Q.</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="header-menu-btn" type="button" data-menu-open>
+      <svg
+        class="header-menu-btn-icon"
+        width="25"
+        height="16"
+        aria-label="menu button icon"
+      >
+        <use href="/vanilla-app-template/assets/sprite-8ee3646a.svg#icon-burger"></use>
+      </svg>
+    </button>
+  </div>
 </header>
 
     <main>
-      <section class="">
-  <div class="container"></div>
+      <section class="hero">
+  <div class="hero-container container">
+    <h1 class="main-title marker">
+      AdBlue<span class="trademark">&#174;</span>
+    </h1>
+    <p class="hero-text">
+      AZMOL-BP — єдиний в Україні виробник з власним обладнанням і лабораторією,
+      сертифікованими VDA
+    </p>
+    <img
+      src="../img/mobile/mobile-canisters.png"
+      alt="canisters"
+      width="354"
+      height="266"
+    />
+    <button class="hero-btn" type="button">
+      Огляд ринку AdBlue<span class="trademark-btn">&#174;</span>
+    </button>
+  </div>
 </section>
 
-      <section class="">
-  <div class="container"></div>
+      <section class="certificates">
+  <div class="container">
+    <h2 class="certificates-title">
+      <span class="accent-word">AdBlue</span
+      ><span class="certificates-trademark">&#174;</span> від
+      <spsn class="accent-word">AZMOL</spsn> відповідає всім екологічним вимогам
+      <span class="accent-word">EURO IV, V, VI</span>
+    </h2>
+    <ul class="certificates-item-container">
+      <li>
+        <div class="certificates-item">
+          <div class="certificates-item-value">
+            <svg class="certificates-icon" width="55" height="48">
+              <use href="/vanilla-app-template/assets/sprite-8ee3646a.svg#icon-sertufikat"></use>
+            </svg>
+            <p class="certificates-text">
+              <span class="certificates-text-accent">vda</span> регулярно
+              моніторить склад нашої продукції
+            </p>
+          </div>
+          <button class="certificates-item-btn" type="button">
+            сертифікат VDA
+            <svg class="certificates-btn-icon" width="19">
+              <use href="/vanilla-app-template/assets/sprite-8ee3646a.svg#icon-arrow-next"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+      <li>
+        <div class="certificates-item">
+          <div class="certificates-item-value">
+            <svg class="certificates-icon" width="52" height="48">
+              <use href="/vanilla-app-template/assets/sprite-8ee3646a.svg#icon-lab"></use>
+            </svg>
+            <p class="certificates-text">
+              <span class="certificates-text-accent">три рівня</span> контролю
+              якості
+            </p>
+          </div>
+          <button class="certificates-item-btn" type="button">
+            паспорт якості
+            <svg class="certificates-btn-icon" width="19">
+              <use href="/vanilla-app-template/assets/sprite-8ee3646a.svg#icon-arrow-next"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+      <li>
+        <div class="certificates-item">
+          <div class="certificates-item-value">
+            <svg class="certificates-icon" width="48" height="48">
+              <use href="/vanilla-app-template/assets/sprite-8ee3646a.svg#icon-file"></use>
+            </svg>
+            <p class="certificates-text">
+              <span class="certificates-text-accent">кожна партія</span>
+              супроводжується документацією
+            </p>
+          </div>
+          <button class="certificates-item-btn" type="button">
+            спектограмма
+            <svg class="certificates-btn-icon" width="19">
+              <use href="/vanilla-app-template/assets/sprite-8ee3646a.svg#icon-arrow-next"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
 </section>
 
-      <section class="">
-  <div class="container"></div>
+      <section class="looking-partners">
+  <div class="container">
+    <h2 class="looking-partners-title">
+      розвиваємо готові рішення для бізнесу
+    </h2>
+    <ul class="looking-partners-container">
+      <li>
+        <button class="looking-partners-btn" type="button">
+          <svg class="looking-partners-icon" width="24" height="25">
+            <use href="/vanilla-app-template/assets/sprite-8ee3646a.svg#icon-station"></use>
+          </svg>
+          <h3 class="looking-partners-name">рішення для АЗС</h3>
+        </button>
+      </li>
+      <li>
+        <button class="looking-partners-btn" type="button">
+          <svg class="looking-partners-icon" width="50" height="25">
+            <use href="/vanilla-app-template/assets/sprite-8ee3646a.svg#icon-truck"></use>
+          </svg>
+          <h3 class="looking-partners-name">
+            рішення для логістичних компаній
+          </h3>
+        </button>
+      </li>
+      <li>
+        <button class="looking-partners-btn" type="button">
+          <svg class="looking-partners-icon" width="37" height="25">
+            <use href="/vanilla-app-template/assets/sprite-8ee3646a.svg#icon-bus"></use>
+          </svg>
+          <h3 class="looking-partners-name">
+            рішення для громадського транспорту
+          </h3>
+        </button>
+      </li>
+      <li>
+        <button class="looking-partners-btn" type="button">
+          <svg class="looking-partners-icon" width="31" height="25">
+            <use href="/vanilla-app-template/assets/sprite-8ee3646a.svg#icon-traktor"></use>
+          </svg>
+          <h3 class="looking-partners-name">
+            рішення для комунальних господарств
+          </h3>
+        </button>
+      </li>
+      <li>
+        <button class="looking-partners-btn" type="button">
+          <svg class="looking-partners-icon" width="42" height="25">
+            <use href="/vanilla-app-template/assets/sprite-8ee3646a.svg#icon-combaine"></use>
+          </svg>
+          <h3 class="looking-partners-name">рішення для аграрного сектора</h3>
+        </button>
+      </li>
+      <li>
+        <button class="looking-partners-btn" type="button">
+          <h3 class="looking-partners-name looking-partners-last-name">
+            отримати буклет
+          </h3>
+        </button>
+      </li>
+    </ul>
+  </div>
 </section>
 
-      <section class="">
-  <div class="container"></div>
+      <section class="our-offer">
+  <div class="container">
+    <h2 class="our-offer-title">ми пропонуємо партнерам</h2>
+    <p class="our-offer-subtitle">
+      зручні і надійні формати фасування та транспортування реагенту
+    </p>
+    <ul class="our-offer-list">
+      <li class="our-offer-item">
+        <div class="our-offer-item-img-container">
+          <img
+            class="our-offer-item-img-first"
+            src="../img/cysterna.png"
+            alt="cysterna"
+            width="220"
+            height="185"
+          />
+        </div>
+        <h3 class="our-offer-item-name">Оптові партії</h3>
+      </li>
+      <li class="our-offer-item">
+        <div class="our-offer-item-img-container">
+          <img
+            class="our-offer-item-img-second"
+            src="../img/kubushka.png"
+            alt="kubushka"
+            width="172"
+            height="172"
+          />
+        </div>
+        <h3 class="our-offer-item-name">контейнери IBC</h3>
+        <p class="our-offer-item-text">Єврокуб 1000 л</p>
+      </li>
+      <li class="our-offer-item">
+        <div class="our-offer-item-img-container">
+          <img
+            class="our-offer-item-img-last"
+            src="../img/group-canisters.png"
+            alt="group-canisters"
+            width="169"
+            height="139"
+          />
+        </div>
+        <h3 class="our-offer-item-name">каністри</h3>
+        <p class="our-offer-item-text">Об’єм 10 і 20 л</p>
+      </li>
+    </ul>
+    <button class="our-offer-btn" type="button">дізнатись ціни</button>
+  </div>
 </section>
 
-      <section class="">
-  <div class="container"></div>
+      <section class="guarantees">
+  <div class="guarantees-container container">
+    <h2 class="guarantees-title">
+      ми гарантуємо <span class="guarantees-title-accent">100%</span> чистоту,
+      екологічність і якість нашого реагенту
+    </h2>
+    <p class="guarantees-text">
+      Єдиний в Україні лабораторний комплекс, що відповідає стандартам VDA,
+      контролює всі етапи виробництва AdBlue<span class="trademark-guarantees"
+        >&#174;</span
+      >:
+    </p>
+    <ul class="guarantees-list">
+      <li class="guarantees-item">
+        <div class="guarantees-item-number-container">
+          <p class="guarantees-item-number">01</p>
+        </div>
+        <h3 class="guarantees-item-name">вхідний контроль сировини</h3>
+      </li>
+      <li class="guarantees-item">
+        <div class="guarantees-item-number-container">
+          <p class="guarantees-item-number">02</p>
+        </div>
+        <h3 class="guarantees-item-name">аналіз на етапі виробництва</h3>
+      </li>
+      <li class="guarantees-item">
+        <div class="guarantees-item-number-container">
+          <p class="guarantees-item-number">03</p>
+        </div>
+        <h3 class="guarantees-item-name">контрольний аналіз</h3>
+      </li>
+      <li class="guarantees-item">
+        <div class="guarantees-item-number-container">
+          <p class="guarantees-item-number">04</p>
+        </div>
+        <h3 class="guarantees-item-name">паспортизація</h3>
+      </li>
+    </ul>
+  </div>
 </section>
 
-      <section class="">
-  <div class="container"></div>
+      <section class="quality">
+  <div class="container">
+    <h2 class="qulity-title">
+      в паспорті зазначено якість реагента
+      <span class="qulity-title-accen-word">AdBlue</span
+      ><span class="trademark-quality">&#174;</span> за
+      <span class="qulity-title-accen">18</span> показниками
+    </h2>
+    <ul class="quality-list">
+      <li class="quality-item">
+        <p class="quality-item-number">1</p>
+        <p class="quality-item-value">
+          Масова концентрація альдегідів мг<span>&#47;</span>кг
+          <span>&#60;</span> 5
+        </p>
+      </li>
+      <li class="quality-item">
+        <p class="quality-item-number">2</p>
+        <p class="quality-item-value">
+          Показник заломлення при 20 <span>&#176;</span>С - 1,3814 - 1,3843
+        </p>
+      </li>
+      <li class="quality-item">
+        <p class="quality-item-number">3</p>
+        <p class="quality-item-value">Вміст сечовини, % у межах 31,8 - 33,2</p>
+      </li>
+      <li class="quality-item">
+        <p class="quality-item-number">4</p>
+        <p class="quality-item-value">Лужність, % не більше 0,2</p>
+      </li>
+      <li class="quality-item">
+        <p class="quality-item-number">5</p>
+        <p class="quality-item-value">Масова доля біурету, % не більше 0,3</p>
+      </li>
+    </ul>
+    <button class="quality-btn" type="button">дивитись ще</button>
+  </div>
 </section>
 
-      <section class="">
-  <div class="container"></div>
+      <section class="ecology">
+  <div class="container">
+    <h2 class="ecology-title">
+      рівень викидів
+      <span class="ecology-title-accent"
+        >CO<span class="ecology-elenent">2</span></span
+      >
+    </h2>
+    <p class="ecology-value">0<span class="ecology-value-unit">%</span></p>
+    <h3 class="ecology-tagline">
+      AdBlue<span class="trademark-ecology">&#174;</span> від AZMOL — ЦЕ ВАШ
+      ЩИРИЙ ВНЕСОК У ЗАХИСТ ЕКОЛОГІЇ УКРАЇНИ
+    </h3>
+  </div>
 </section>
 
     </main>
-    
+    <section class="footer">
+  <div class="container-description container">
+    <a class="logo-footer" href="./index.html">
+      <svg width="166" height="121">
+        <use href="/vanilla-app-template/assets/sprite-8ee3646a.svg#icon-footer-logo"></use>
+      </svg>
+    </a>
+    <p>контакти для зв'язку</p>
+    <address></address>
+    <div>
+    <P>прийом дзвінків</P>
+    <P>Понеділок — П'ятниця</P>
+    <P>з 8:00 — 18:00</P>
+    </div>
+    <div class="consultation-menu">
+          <p class="consultation-title">отримати консультацію</p>
+          <form
+            class="consultation-form"
+            name="Consultatione"
+            autocomplete="off">
+                <input
+                class="consultation-email"
+                type="text"
+                name="user-name"
+                pattern="[A-Za-z]{1-30}"
+                required
+                placeholder="Ваше ім'я"/>
+              <input
+                class="consultation-phone"
+                type="tel"
+                name="phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                required
+                placeholder="телефон"
+              />
+            <button class="consultation-button" type="submit">
+              зворотний дзвінок
+            </button>
+          </form>
+        </div>
+      </div>
+  </div>
+</section>
+
     
   </body>
 </html>
