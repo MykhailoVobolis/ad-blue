@@ -1,0 +1,113 @@
+.our-offer {
+  background-color: #0589d2;
+  padding-top: 30px;
+  padding-bottom: 38px;
+  min-width: 320px;
+  background-image: url('../img/mobile/mobile-fon-our-offer.jpg');
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin: 0 auto;
+}
+
+.our-offer-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.our-offer-subtitle {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 47px;
+}
+
+.our-offer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.our-offer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-offer-item-img-container {
+  background-color: #78deff;
+  border-radius: 50%;
+  width: 166px;
+  height: 166px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.our-offer-item-img-first {
+  top: -10px;
+  left: -54px;
+  position: absolute;
+  max-width: 220px;
+}
+
+.our-offer-item-img-second {
+  top: 10px;
+  left: -12px;
+  position: absolute;
+  max-width: 172px;
+}
+
+.our-offer-item-img-last {
+  top: 18px;
+  left: -5px;
+  position: absolute;
+  max-width: 168px;
+}
+
+.our-offer-item-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.our-offer-item-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+}
+
+.our-offer-btn {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 13px 39px;
+  border: none;
+  border-radius: 5px;
+  width: 270px;
+  height: 50px;
+  background-color: #2d9cdb;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.our-offer-btn:hover {
+  box-shadow: 0 15px 25px -10px rgba(45, 156, 219, 0.4);
+}

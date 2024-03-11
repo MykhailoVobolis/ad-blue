@@ -1,0 +1,12 @@
+.footer {
+  background-color: #0589d2;
+  padding-top: 38px;
+  padding-bottom: 16px;
+  min-width: 320px;
+  background-image: url('../img/mobile/mobile-background-footer.jpg');
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin: 0 auto;
+}

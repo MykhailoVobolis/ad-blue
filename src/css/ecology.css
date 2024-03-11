@@ -1,0 +1,70 @@
+.ecology {
+  background-color: #0589d2;
+  padding-top: 47px;
+  padding-bottom: 50px;
+  min-width: 320px;
+  background-image: url('../img/mobile/mobile-background-ecology.jpg');
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin: 0 auto;
+}
+
+.ecology-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  max-width: 174px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 14px;
+}
+
+.ecology-title-accent {
+  font-weight: 700;
+  font-size: 24px;
+  color: #2d9cdb;
+}
+
+.ecology-elenent {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.3;
+  vertical-align: top;
+}
+
+.ecology-value {
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 0.8;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+
+.ecology-value-unit {
+  font-weight: 600;
+  font-size: 72px;
+  color: #2d9cdb;
+}
+
+.ecology-tagline {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.6;
+  text-align: center;
+  color: #ffffff;
+}
+
+.trademark-ecology {
+  font-weight: 600;
+  font-size: 16px;
+  vertical-align: top;
+}
