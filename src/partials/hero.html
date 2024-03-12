@@ -7,12 +7,30 @@
       AZMOL-BP — єдиний в Україні виробник з власним обладнанням і лабораторією,
       сертифікованими VDA
     </p>
-    <img
-      src="./img/mobile/mobile-canisters.png"
-      alt="canisters"
-      width="354"
-      height="266"
-    />
+    <picture>
+      <!-- Desktop -->
+      <source
+        media="(min-width: 1158px)"
+        srcset="./img/canisters.png 1x, ./img/canisters@2x.png 2x"
+        type="image/png"
+      />
+
+      <!-- Mobile -->
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./img/mobile/mobile-canisters.png    1x,
+          ./img/mobile/mobile-canisters@2x.png 2x
+        "
+        type="image/png"
+      />
+      <img
+        src="./img/mobile/mobile-canisters.png"
+        alt="canisters"
+        width="354"
+        height="266"
+      />
+    </picture>
     <button class="hero-btn" type="button">
       Огляд ринку AdBlue<span class="trademark-btn">&#174;</span>
     </button>

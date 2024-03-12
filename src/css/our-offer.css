@@ -11,6 +11,15 @@
   margin: 0 auto;
 }
 
+/* Изображение 2х */
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-devide-pixel-ratio: 2) {
+  .our-offer {
+    background-image: url('../img/mobile/mobile-fon-our-offer@2x.jpg');
+  }
+}
+
 .our-offer-title {
   font-weight: 600;
   font-size: 18px;

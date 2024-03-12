@@ -11,6 +11,15 @@
   margin: 0 auto;
 }
 
+/* Изображение 2х */
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-devide-pixel-ratio: 2) {
+  .looking-partners {
+    background-image: url('../img/mobile/mobile-pic-truck@2x.jpg');
+  }
+}
+
 .looking-partners-title {
   font-weight: 700;
   font-size: 18px;

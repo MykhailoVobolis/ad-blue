@@ -11,6 +11,15 @@
   margin: 0 auto;
 }
 
+/* Изображение 2х */
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-devide-pixel-ratio: 2) {
+  .footer {
+    background-image: url('../img/mobile/mobile-background-footer@2x.jpg');
+  }
+}
+
 .container-description {
   display: flex;
   flex-direction: column;

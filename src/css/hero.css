@@ -9,6 +9,16 @@
   background-position: 50% 50%;
   min-width: 320px;
   margin: 0 auto;
+  border-top: 1px solid #ffffff;
+}
+
+/* Изображение 2х */
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-devide-pixel-ratio: 2) {
+  .hero {
+    background-image: url('../img/mobile/mobile-background-hero@2x.jpg');
+  }
 }
 
 h1 {

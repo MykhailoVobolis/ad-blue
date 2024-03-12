@@ -9,12 +9,19 @@
   background-position: 50% 50%;
   min-width: 320px;
   margin: 0 auto;
-  border-bottom: 1px solid #ffffff;
-
   /* Фіксація header при скролі */
   position: sticky;
   top: 0px;
   z-index: 9999;
+}
+
+/* Изображение 2х */
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-devide-pixel-ratio: 2) {
+  .header {
+    background-image: url('../img/mobile/mobile-background-header@2x.jpg');
+  }
 }
 
 .header-container {

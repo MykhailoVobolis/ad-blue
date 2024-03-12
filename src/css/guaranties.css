@@ -5,10 +5,19 @@
   min-width: 320px;
   background-image: url('../img/mobile/mobile-pic-lab.jpg');
   max-width: 100%;
-  background-size: scale-down;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 100%;
   margin: 0 auto;
+}
+
+/* Изображение 2х */
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-devide-pixel-ratio: 2) {
+  .guarantees {
+    background-image: url('../img/mobile/mobile-pic-lab@2x.jpg');
+  }
 }
 
 .guarantees-container {
