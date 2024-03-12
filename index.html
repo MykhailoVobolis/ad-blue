@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/ad-blue/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/ad-blue/assets/index-00687efb.css">
+    <link rel="stylesheet" href="/ad-blue/assets/index-27436947.css">
   </head>
   <body>
     <section class="">
@@ -375,38 +375,25 @@
         <use href="/ad-blue/assets/sprite-8ee3646a.svg#icon-footer-logo"></use>
       </svg>
     </a>
-    <p>контакти для зв'язку</p>
-    <address></address>
-    <div>
-    <P>прийом дзвінків</P>
-    <P>Понеділок — П'ятниця</P>
-    <P>з 8:00 — 18:00</P>
-    </div>
+    <div class="address-container">
+    <p class="contacts">зв'язок з менеджером</p>
+    <address>
+      <a class="communication-phone" href="tel:+380800504524">+380-800-504-524</a>
+    </address>
+  </div>
+   <div class="schedule-container">
+    <P class="schedule-title">прийом дзвінків</P>
+    <P class="schedule-day">Понеділок — П'ятниця</P>
+    <P class="schedule-time">з 8:00 — 18:00</P>
+   </div>
     <div class="consultation-menu">
-          <p class="consultation-title">отримати консультацію</p>
-          <form
-            class="consultation-form"
-            name="Consultatione"
-            autocomplete="off">
-                <input
-                class="consultation-email"
-                type="text"
-                name="user-name"
-                pattern="[A-Za-z]{1-30}"
-                required
-                placeholder="Ваше ім'я"/>
-              <input
-                class="consultation-phone"
-                type="tel"
-                name="phone"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                required
-                placeholder="телефон"
-              />
-            <button class="consultation-button" type="submit">
-              зворотний дзвінок
-            </button>
+     <p class="consultation-title">отримати консультацію</p>
+        <form class="consultation-form" name="Consultatione" autocomplete="off">
+          <input class="consultation-email" type="text" name="user-name" pattern="[A-Za-z]{1-30}" required placeholder="Ваше ім'я"/>
+          <input class="consultation-phone" type="tel" name="phone" pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="13" maxlength="13" required placeholder="Телефон"/>
+          <button class="consultation-button" type="submit">замовити дзвінок</button>
           </form>
+          <p class="copyright"><span class="copyright-sing">&#169;</span> AZMOL British Petrochemicals. 2024</p>
         </div>
       </div>
   </div>
