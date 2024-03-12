@@ -20,7 +20,14 @@
   }
 }
 
+.our-offer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .our-offer-title {
+  max-width: 274px;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.3;
@@ -31,6 +38,7 @@
 }
 
 .our-offer-subtitle {
+  max-width: 274px;
   font-weight: 500;
   font-size: 13px;
   line-height: 1.4;
@@ -100,8 +108,6 @@
 }
 
 .our-offer-btn {
-  margin-left: auto;
-  margin-right: auto;
   padding: 13px 39px;
   border: none;
   border-radius: 5px;

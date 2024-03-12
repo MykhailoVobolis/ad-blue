@@ -20,7 +20,14 @@
   }
 }
 
+.quality-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .qulity-title {
+  max-width: 274px;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.4;
@@ -50,6 +57,7 @@
 }
 
 .quality-list {
+  max-width: 274px;
   display: flex;
   flex-direction: column;
   gap: 20px;

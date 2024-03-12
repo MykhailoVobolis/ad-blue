@@ -21,6 +21,7 @@
 }
 
 .looking-partners-title {
+  max-width: 274px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.6;
@@ -31,11 +32,12 @@
   margin-bottom: 30px;
 }
 
-.looking-partners-container {
+.looking-partners-list {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 20px;
+  justify-content: center;
 }
 
 .looking-partners-btn:hover {
