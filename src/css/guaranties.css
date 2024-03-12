@@ -5,7 +5,7 @@
   min-width: 320px;
   background-image: url('../img/mobile/mobile-pic-lab.jpg');
   max-width: 100%;
-  background-size: contain;
+  background-size: 320px 236px;
   background-repeat: no-repeat;
   background-position: 50% 100%;
   margin: 0 auto;
