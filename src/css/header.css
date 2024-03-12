@@ -12,9 +12,9 @@
   border-bottom: 1px solid #ffffff;
 
   /* Фіксація header при скролі */
-  /* position: sticky;
+  position: sticky;
   top: 0px;
-  z-index: 9999; */
+  z-index: 9999;
 }
 
 .header-container {

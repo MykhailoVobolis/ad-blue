@@ -1,7 +1,7 @@
 .footer {
   background-color: #0589d2;
   padding-top: 38px;
-  padding-bottom: 16px;
+  padding-bottom: 24px;
   min-width: 320px;
   background-image: url('../img/mobile/mobile-background-footer.jpg');
   max-width: 100%;
@@ -9,4 +9,148 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   margin: 0 auto;
+}
+
+.container-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-footer {
+  margin-bottom: 37px;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: center;
+  margin-bottom: 38px;
+}
+
+.contacts,
+.schedule-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 235px;
+  height: 40px;
+  background-color: #0589d2;
+}
+
+.communication-phone {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.375;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 43px;
+}
+
+.schedule-day,
+.schedule-time {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.consultation-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.consultation-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 2.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 13px;
+}
+
+.consultation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 19px;
+}
+
+.consultation-email,
+.consultation-phone {
+  width: 272px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: transparent;
+  outline-offset: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding-left: 20px;
+  text-transform: capitalize;
+  opacity: 0.5;
+}
+
+.consultation-email::placeholder,
+.consultation-phone::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.consultation-email:focus,
+.consultation-phone:focus,
+.consultation-email:hover,
+.consultation-phone:hover {
+  opacity: 1;
+}
+
+.consultation-button {
+  border: none;
+  border-radius: 5px;
+  width: 272px;
+  height: 50px;
+  background-color: #ce181e;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 47px;
+}
+
+.copyright {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.copyright-sing {
+  font-size: 14px;
 }
