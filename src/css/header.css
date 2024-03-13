@@ -50,6 +50,9 @@
 .header-menu-btn {
   border: 0;
   background-color: transparent;
+  width: 32px;
+  height: 32px;
+  padding: 8px 4px;
 }
 
 .header-menu-btn-icon {
