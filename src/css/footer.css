@@ -117,7 +117,7 @@
   color: #ffffff;
   padding-left: 20px;
   text-transform: capitalize;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .consultation-email::placeholder,
@@ -150,6 +150,10 @@
   color: #ffffff;
   margin-top: 5px;
   margin-bottom: 47px;
+}
+
+.consultation-button:hover {
+  background-color: #8f0f13;
 }
 
 .copyright {
