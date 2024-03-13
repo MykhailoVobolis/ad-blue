@@ -4,12 +4,142 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 2</title>
+    <title>Laboratory</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <script type="module" crossorigin src="/ad-blue/assets/index-07c0ac33.js"></script>
+    <link rel="stylesheet" href="/ad-blue/assets/index-f3d9ffb3.css">
   </head>
   <body>
-    <section>
-      <a href="./index.html">Go to home</a>
-      <h1>Welcome to page 2</h1>
-    </section>
+    <section class="">
+  <div class="container"></div>
+</section>
+
+    <div class="mobile-menu is-open" data-menu>
+  <div class="mobile-menu-container">
+    <button class="mobile-close-button" type="button" data-menu-close>
+      <svg class="mobile-close-icon" width="20" height="20">
+        <use href="/ad-blue/assets/sprite-8ee3646a.svg#icon-cancel-off"></use>
+      </svg>
+    </button>
+    <nav class="mobile-navigation">
+      <ul class="mobile-navigation-list">
+        <li class="mobile-navigation-link">
+          <a href="./index.html">головна</a>
+        </li>
+        <li class="mobile-navigation-link">
+          <a href="#certificates">сертифікація</a>
+        </li>
+        <li class="mobile-navigation-link">
+          <a href="../page-2.html">лабораторія</a>
+        </li>
+        <li class="mobile-navigation-link">
+          <a href="#contacts">контакти</a>
+        </li>
+        <li class="mobile-navigation-link"><a href="">f.a.q</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-address-container">
+      <p class="mobile-contacts">зв'язок з менеджером</p>
+      <address>
+        <a class="mobile-communication-phone" href="tel:+380800504524"
+          >+380-800-504-524</a
+        >
+      </address>
+    </div>
+  </div>
+</div>
+
+    <header class="header">
+  <div class="header-container container">
+    <nav class="header-nav">
+      <a class="header-logo-link" href="./index.html"
+        ><svg width="159" height="39">
+          <use href="/ad-blue/assets/sprite-8ee3646a.svg#icon-main-logo"></use>
+        </svg>
+      </a>
+      <ul class="header-nav-list">
+        <li class="nav-item">
+          <a href="./page-2.html" class="nav-link">СЕРТИФІКАЦІЯ</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="./page-2.html" class="nav-link">ЛАБОРАТОРІЯ</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="./page-3.html" class="nav-link">КОНТАКТИ</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="./page-3.html" class="nav-link">F.A.Q.</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="header-menu-btn" type="button" data-menu-open>
+      <svg
+        class="header-menu-btn-icon"
+        width="25"
+        height="16"
+        aria-label="menu button icon"
+      >
+        <use href="/ad-blue/assets/sprite-8ee3646a.svg#icon-burger"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+    <main>
+      <section>
+        <h1>Welcome to Laboratory</h1>
+      </section>
+    </main>
+    <section class="footer" id="contacts">
+  <div class="container-description container">
+    <a class="logo-footer" href="./index.html">
+      <svg width="166" height="121">
+        <use href="/ad-blue/assets/sprite-8ee3646a.svg#icon-footer-logo"></use>
+      </svg>
+    </a>
+    <div class="address-container">
+    <p class="contacts">зв'язок з менеджером</p>
+    <address>
+      <a class="communication-phone" href="tel:+380800504524">+380-800-504-524</a>
+    </address>
+  </div>
+   <div class="schedule-container">
+    <P class="schedule-title">прийом дзвінків</P>
+    <P class="schedule-day">Понеділок — П'ятниця</P>
+    <P class="schedule-time">з 8:00 — 18:00</P>
+   </div>
+    <div class="consultation-menu">
+     <p class="consultation-title">отримати консультацію</p>
+        <form action="#" class="consultation-form" name="Consultatione" autocomplete="off">
+          <input class="consultation-email" type="text" name="user-name" pattern="[A-Za-z]{1-30}" required placeholder="Ваше ім'я"/>
+          <input class="consultation-phone" type="tel" name="phone" required placeholder="Телефон"/>
+          <button class="consultation-button" type="submit">замовити дзвінок</button>
+          </form>
+          <p class="copyright"><span class="copyright-sing">&#169;</span> AZMOL British Petrochemicals. 2024</p>
+        </div>
+      </div>
+  </div>
+</section>
+
+    <!-- Lodash jQuery script file -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    
   </body>
 </html>
